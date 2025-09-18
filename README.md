@@ -18,6 +18,21 @@ This project demonstrates the **full data science pipeline**: from raw data → 
 Accurate property valuation is a critical task in the real estate industry. Prices are influenced by multiple factors — area, location, amenities, and market dynamics.  
 This project applies **data science best practices** to clean, analyze, and model housing data, ensuring both domain relevance and statistical rigor.  
 
+## 🏠 Project Overview
+
+![House Price Prediction](images/house.png)
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Programming Language**: Python  
+- **Data Manipulation**: pandas, numpy  
+- **Visualization**: matplotlib, seaborn  
+- **Machine Learning**: scikit-learn, xgboost  
+- **Model Persistence**: pickle 
+- **Deployment**: Streamlit  
+
 ---
 
 ## ⚙️ Key Steps  
@@ -75,6 +90,25 @@ This project applies **data science best practices** to clean, analyze, and mode
 
 ## 🚀 Next Steps  
 
-- Deploy model as an interactive **Streamlit app**.  
+- Deploy model as an interactive **Streamlit app**.
+- Add APIs for real-time prediction integration.
 
 ---
+
+## ✨ Key Learnings  
+
+- Leveraging **domain knowledge** (bathroom-to-bedroom ratios, sqft conversions) ensures realistic data.  
+- Applying **location-specific outlier detection** improves model accuracy and stability.  
+- Ensemble methods like **Random Forest** and **XGBoost** outperform linear models in capturing complex housing market patterns.  
+- End-to-end project structuring (data → model → deployment) is crucial for real-world usability.  
+
+---
+
+## 📌 Author  
+
+👤 **Muhammad Basharat Asghar**  
+
+- Data Scientist | Machine Learning Practitioner  
+- Passionate about applying AI/ML in **real world** 
+- Open to collaborations and new opportunities in Data Science & Machine Learning  
+
