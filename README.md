@@ -104,9 +104,7 @@ This project applies **data science best practices** to clean, analyze, and mode
 
 ## 📌 Author  
 
-👤 **Muhammad Basharat Asghar**  
-
-[LinkedIn](https://www.linkedin.com/in/basharat-asghar/)
+👤 **Muhammad Basharat Asghar**  [LinkedIn](https://www.linkedin.com/in/basharat-asghar/)
 
 - Data Scientist | Machine Learning Practitioner  
 - Passionate about applying AI/ML in **real world** 
