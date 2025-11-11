@@ -18,7 +18,7 @@ This project demonstrates the **full data science pipeline**: from raw data → 
 Accurate property valuation is a critical task in the real estate industry. Prices are influenced by multiple factors — area, location, amenities, and market dynamics.  
 This project applies **data science best practices** to clean, analyze, and model housing data, ensuring both domain relevance and statistical rigor.  
 
-![House Price Prediction](images/streamlit_app_zoomed_in.png)
+![House Price Prediction](images/flask_app.png)
 
 ---
 
