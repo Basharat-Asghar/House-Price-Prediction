@@ -6,8 +6,8 @@ Key highlights:
 - ✅ Cleaned and engineered features with **domain knowledge** (sqft conversions, bath/bed ratios, etc.).  
 - ✅ Applied **outlier detection** (location-based price sanity checks).  
 - ✅ Built and compared multiple models: **Linear Regression, Random Forest, XGBoost**.  
-- ✅ Achieved **R² ≈ 0.993** with Random Forest.  
-- ✅ Saved and deployed models using **pickle + Streamlit**.  
+- ✅ Achieved **R² ≈ 0.825** with XGBoost.  
+- ✅ Saved and deployed models using **joblib + flask**.  
 
 This project demonstrates the **full data science pipeline**: from raw data → preprocessing → feature engineering → modeling → deployment.  
 
@@ -28,8 +28,8 @@ This project applies **data science best practices** to clean, analyze, and mode
 - **Data Manipulation**: pandas, numpy  
 - **Visualization**: matplotlib, seaborn  
 - **Machine Learning**: scikit-learn, xgboost  
-- **Model Persistence**: pickle 
-- **Deployment**: Streamlit  
+- **Model Persistence**: joblib 
+- **Deployment**: flask  
 
 ---
 
@@ -68,27 +68,26 @@ This project applies **data science best practices** to clean, analyze, and mode
 ### 5. Hyperparameter Tuning  
 - Tuned Random Forest with **RandomizedSearchCV**.  
 - Best parameters achieved:  
-  - `n_estimators=500`, `max_depth=12`, `min_samples_split=5`, etc.  
+  - {'n_estimators': 740, 'max_depth': 4, 'learning_rate': 0.07352513127523283, 'min_child_weight': 1, 'gamma': 0.40440700735540425, 'subsample': 0.8228710198707744, 'colsample_bytree': 0.7184141591040053, 'reg_alpha': 0.3398329847330549, 'reg_lambda': 4.1758854686392155}.  
 - Selected final model based on cross-validation and residual diagnostics.  
 
 ### 6. Model Persistence  
-- Saved both **base** and **tuned** Random Forest models using `pickle`.  
-- Enables seamless deployment in Streamlit or Flask applications.  
+- Saved both **tuned** XGBoost model using `joblib`.  
+- Enables seamless deployment in Flask application.  
 
 ---
 
 ## 📊 Results  
 
-- **Random Forest (tuned)** performed best:  
-  - Test R² ≈ **0.993**  
-  - RMSE ≈ **6.35**  
-- Residual plots confirmed minimal bias and random distribution of errors.  
+- **XGBoost (tuned)** performed best:  
+  - Test R² ≈ **0.825**  
+  - RMSE ≈ **31.24**  
 
 ---
 
 ## 🚀 Next Steps  
 
-- Deploy model as an interactive **Streamlit app**.
+- Deploy model as an interactive **flask app**.
 - Add APIs for real-time prediction integration.
 
 ---
